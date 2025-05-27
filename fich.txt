@@ -1,0 +1,37 @@
+INT I,X;
+BOOL Flag;
+CONST INT S=4;
+BOOL Flag;
+
+BEGIN
+    Y := X;
+    X := 5;
+    Fg:=0;
+
+    For (I := 1,I <= 5,I++){ 
+        If (X == Y)
+        {
+            Flag := false;
+        }
+        else
+        {
+            Flag := true;
+        }
+    }
+
+    If ( ==)
+    {
+        X := X + 1;
+    }
+    else
+    {
+        Y := Y - 1;
+    }
+    while(I>Y){
+        I++;
+    }
+    do{
+        I--;
+    }while(Y>X);
+
+END

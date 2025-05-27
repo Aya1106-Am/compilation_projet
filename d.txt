@@ -1,0 +1,15 @@
+INT I , J ,X;
+BEGIN 
+For(I := 0,I < 2, I++) {For(J := 2, J>= 0, J--){
+If(I == J){    
+    ecrire("Idsds=*&)&*($&(&)!£$(*!(*&$)))");
+    While(I<J){
+        lire(%d,&I);
+    }
+}
+}
+Do{
+    X:=3;
+}While(X<>3);
+}
+END

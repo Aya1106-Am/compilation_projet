@@ -1,0 +1,81 @@
+INT I ,X, Y, U,Z,W;
+BEGIN 
+Z:=0;
+Y := X - 1 * ((5/6)+(I*1+2));
+Y := X%%5;
+U := Y/0;
+W:= 7/0;
+Y := X^3;
+END
+
+CONST INT C=3;
+INT I,X,Z,U,W,Y;
+FLOAT Z;
+BEGIN 
+Z:=I;
+I:=3.14;
+AB := 5+9;
+C:=4;
+END
+
+
+INT I , J ,X;
+BEGIN 
+For(I := 0,I < 2, I++) {For(J := 2, J>= 0, J--){
+If(I == J){    
+    ecrire("Idsds=");
+    While(I<J){
+        lire(%d,&I);
+    }
+}
+}
+Do{
+    X:=3;
+}While(X<>3);
+}
+END
+
+
+INT Day,X;
+BEGIN
+switch (X) {  case 0:
+    Day := 0;    break;
+  case 1:    Day := 1;
+    break;  
+  case 2:
+     Day := 2;
+     break;  
+  case 3:
+    Day := 5;    
+    break;
+  case 4:
+    Day := 8;    
+    break;
+  case 5:    
+   Day := 7;
+    break;  
+  case 6:
+    Day := 9;    
+  break;
+  default:      
+    Day:=12;
+}END
+
+
+INT X,I;
+BEGIN
+I:=X;
+I:=X%%7;
+END
+
+
+VOID FONCTION Somme( INT A;){
+ INT I,X,S;
+ X:=3+S;
+ return X;
+}
+INT W,Z;
+BEGIN
+Somme(W);
+Z := Somme(W);
+END

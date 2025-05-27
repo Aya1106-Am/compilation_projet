@@ -1,0 +1,4 @@
+BEGIN
+/* Ceci est un commentaire */
+/**** ceci est un commentaire */
+END
